@@ -1,0 +1,19 @@
+{
+    "name": "test-js-karma-jasmine",
+    "description": "Testing JS with karma and jasmine",
+    "version": "0.0.1",
+    "author": {
+        "name": "Chonlasith Jucksriporn",
+        "email": "chonla@capabilify.com"
+    },
+    "scripts": {
+        "unit": "karma start karma.conf.js --single-run;exit 0"
+    },
+    "devDependencies": {
+        "karma": "~1.0.0",
+        "jasmine-core": "~2.5.0",
+        "karma-jasmine": "~1.0.0",
+        "phantomjs-prebuilt": "~2.1.0",
+        "karma-phantomjs-launcher": "~1.0.0"
+    }
+}
