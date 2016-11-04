@@ -10,6 +10,17 @@ function Calculator(adder) {
                 result = this.adder.add(result, a);
             }
             return result;
+        },
+        divide: function(a, b) {
+            if (!this.subtractor) {
+                this.subtractor = new Subtractor();
+            }
+            result = 0;
+            while (a >= b) {
+                a -= b;
+                result++;
+            }
+            return result;
         }
     }
 }

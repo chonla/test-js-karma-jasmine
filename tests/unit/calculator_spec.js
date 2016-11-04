@@ -14,4 +14,11 @@ describe("Calculator", function() {
 
         expect(result).toEqual(15);
     });
+
+    it("should call subtractor to subtract Y from X and return number of subtraction", function() {
+        var calculator = new Calculator(),
+            result = calculator.divide(6, 2);
+
+        expect(result).toEqual(3);
+    });
 });
